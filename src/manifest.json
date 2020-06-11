@@ -1,0 +1,13 @@
+{
+  "name": "Extension Name",
+  "version": "0.1",
+  "description": "< >",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/channels/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
